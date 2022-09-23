@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+
+}
+
+
+ body {
+  text-align: center;
+}
+
+.search {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#searchbar {
+  width: 30%;
+  height: 33px;
+  border-color: #efefef;
+  border: 1px solid;
+  border-radius: 5px;
+
+}
+
+.thumbnails {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-gap: 20px;
+}
+
+
+/* !--input controls--! */
+
+
+input[type=text] {
+	width: 30%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 70%;
+}
+
+#list{
+	font-size: 1.5em;
+	margin-left: 90px;
+}
+
+.image{
+display: grid;
+}

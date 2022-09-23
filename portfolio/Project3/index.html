@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link href="css/styles.css" rel="stylesheet">
+  <title>THE CODE REVIEW</title>
+</head>
+
+
+
+<body>
+  <header>
+    <h3 class="code">THE CODE REVIEW</h3>
+</header>
+  <div class="body-wrap">
+
+
+
+  <h2 class="signup">Signup for Our News Letter</h2>
+  <p class="news">Get the lastest news on how your code is doing right in your inbox</p>
+
+
+<form action="index.html" method="post">
+  <div class="form-wrap">
+  <fieldset>
+    <legend>Contact Information</legend>
+  <!-- <h3 class="contact">Contact Information</h3> -->
+
+
+
+
+<div class="input-wrap">
+
+<label class="input-label" for="name">Full Name</label>
+<input  type="text" id="name" name="user_name" class="input-field" placeholder="Required" >
+
+</div>
+
+<div class="input-wrap">
+<label for="email" class="input-label">Email Address</label>
+<input type="email" id="email" name="user_email" class="input-field" placeholder="Required">
+</div>
+<div class="input-wrap">
+<label class="input-label" for="phone">Phone Number</label>
+<input type="tel" id="phone" name="phonenumber" class="input-field">
+</div>
+
+<div class="input-wrap">
+<label class="input-label" for="address">Street Address</label>
+<input type="text" id="address" name="streetaddress" class="input-field">
+</div>
+
+<div class="input-wrap">
+<label class="input-label" for="city">City</label>
+<input type="text" id="city" class="input-field" name="city">
+</div>
+
+<div class="input-wrap">
+<label class="input-label" for="state">State</label>
+<select id="state" class="input-field" name="state">
+  <option value="South Carolina">South Carolina</option>
+  <option value="South Carolina">Georgia</option>
+  <option value="South Carolina">Texas</option>
+
+  </select>
+</div>
+
+<div class="input-wrap">
+<label class="input-label" for="zip">Zip Code</label>
+<input type="text" id="zip" class="input-field zip-input">
+</div>
+</fieldset>
+<hr>
+
+
+<!-- News letter section begins -->
+<fieldset>
+  <legend> News Letter</legend>
+<div class="news-letter-wrap">
+<!-- <h4>News Letter</h4> -->
+<p>Choose the new letter that you would like to recieve:</p>
+
+
+<div>
+
+<div  class="checksandradio">
+
+  <input class="cnr" type="checkbox" id="htmlnews" name="check"
+         checked>
+  <label for="htmlnews">HTML News</label>
+</div>
+
+<div  class="checksandradio">
+  <input class="cnr" type="checkbox" id="check" name="check">
+  <label for="check">CSS News</label>
+</div>
+
+<div  class="checksandradio">
+  <input class="cnr" type="checkbox" id="cssnews" name="cssnews">
+  <label for="cssnews">Javascript</label>
+</div>
+
+<div>
+  <p>New Letter Format</p>
+</div>
+
+<div  class="checksandradio">
+  <input class="cnr" type="radio" id="html" name="format">
+  <label for="html">HTML</label>
+</div>
+
+
+<div  class="checksandradio">
+  <input class="cnr" type="radio" id="plaintext" name="format">
+  <label for="plaintext">Plain text</label>
+</div>
+</div>
+<div>
+  <label for="story">Other topics you would like to hear about</label>
+</div>
+
+</div>
+
+<!-- </div> -->
+<!-- News Letter section ends -->
+
+
+<textarea id="story" name="story"
+          rows="5" cols="33">
+</textarea>
+
+
+<footer>
+  <button class="favorite styled" type="submit"> Sign Up
+  </button>
+  <br>
+
+<small class="copyright">Copyright The Code Review</small>
+
+</footer>
+</fieldset>
+</div>
+</form>
+</div>
+</body>
+</html>
