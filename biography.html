@@ -24,31 +24,43 @@
 
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="index.html" class="nav-link text-dark" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark active">Biography</a></li>
-        <li class="nav-item"><a href="contact.html" class="nav-link text-dark">Contact</a></li>
+        <li class="nav-item"><a href="biography.html" class="nav-link text-dark">Biography</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark active">Contact</a></li>
       </ul>
     </header>
   </div>
 
-  <!-- bio starts here-->
-  <div class="card bio" style="width: 40rem; margin-left: 26.5%;">
-    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Sunset Over the Sea"/>
-    <div  class="card-body">
-    <p class="card-text"> 
-        I'm a Fullstack JavaScript Web Developer who has designed and effectuated interactive, responsive and mobile-friendly applications using HTML, CSS 
-        and Javascript. I have structured content with Bootstrap, SASS, AJAX, JSON, JQuery, Node.js and React. I have made use of APIs and RESTful services.
-        
-      </p>
+<!-- menu ends here -->
+  
+<!-- forms start here-->
+<div class="container">
+<form class="contact-form col-md-5" action="https://www.vengeancebots.com/contactform.php" method="POST">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Full Name</label>
+      <input type="text" name="fullname" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+      
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email" name="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com"> 
+     
+      <label for="exampleFormControlInput1">Phone</label>
+      <input type="phone" name="phone" class="form-control" id="exampleFormControlInput3" placeholder="ex: 843-555-5555"> 
+   
     </div>
 
-    <p>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Message</label>
+      <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</div>
 
-    </p>
+<!-- forms ends here-->
 
-  </div>
-<!-- bio ends here-->
 
-  <!-- footer starts here -->
+<!-- footer starts here -->
+
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     
     <symbol id="github" viewBox="0 0 25 20">
@@ -74,7 +86,7 @@
     </footer>
   </div>
 
-
+<!-- footer ends here -->
 
 <!-- footer ends here -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
